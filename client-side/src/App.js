@@ -21,9 +21,13 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/calculator" element={<CalculatorPage />}>
           <Route path="/" element={<Welcome />} />
-          <Route path="/" element={<HomePage />} />
-          <Route path="/" element={<HomePage />} />
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<Bike />} />
+          <Route path="/" element={<Car />} />
+          <Route path="/" element={<Bus />} />
+          <Route path="/" element={<Flights />} />
+          <Route path="/" element={<House />} />
+          <Route path="/" element={<Secondary />} />
+          <Route path="/" element={<Results />} />
         </Route>
       </Routes>
       <Footer />
