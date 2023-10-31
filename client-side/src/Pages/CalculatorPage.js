@@ -1,7 +1,7 @@
 import React from "react";
 
 const CalculatorPage = () => {
-  return <div>CalculatorPage</div>;
+  return <div>Calculator</div>;
 };
 
 export default CalculatorPage;
